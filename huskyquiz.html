@@ -11,7 +11,7 @@ h1 {
 p {
 	color: gray;
 	font-family: baskerville;
-	text-align: left;
+	text-align: center;
 	font-size: 125%;
 }
 p2 {
@@ -64,24 +64,28 @@ button:hover {
 </div>
 </nav>
 <body>
+<div>
+<center>
 <div id="main">
 <form  id="form1">
-<p>How old are you?</p><td>
-<label><input type="radio" name="age" id="young" value="1" />under 18</label>
-<label><input type="radio" name="age" id="mid" value="2" />19-34</label>
-<label><input type="radio" name="age" id="old" value="3" />34+</label>
+<p>What is your favorite color?</p>
+<label><input type="radio" name="age" id="young" value="1" />Purple</label>
+<label><input type="radio" name="age" id="mid" value="2" />Green</label>
+<label><input type="radio" name="age" id="old" value="3" />Black</label>
 
-<p>What would you prefer to do?</p>
-<label><input type="radio" name="activity" id="party" value="1" />Party</label>
-<label><input type="radio" name="activity" id="rock" value="2" />Rock out</label>
-<label><input type="radio"  name="activity"id="beer" value="3" />Drink beer</label>
+<p>What is your favorite snack?</p>
+<label><input type="radio" name="activity" id="party" value="1" />Raspberries</label>
+<label><input type="radio" name="activity" id="rock" value="2" />Hot Cheetos</label>
+<label><input type="radio"  name="activity"id="beer" value="3" />Oreos</label>
 
-<p>What's your favorite style of music?</p>
-<label><input type="radio" name="genre" id="rock2" value="1" />Rock</label>
-<label><input type="radio" name="genre" id="indie" value="2" />Indie</label>
-<label><input type="radio" name="genre" id="country" value="3" />Country</label>
+<p>What is your favorite style of music?</p>
+<label><input type="radio" name="genre" id="rock2" value="1" />Classical</label>
+<label><input type="radio" name="genre" id="indie" value="2" />Pop</label>
+<label><input type="radio" name="genre" id="country" value="3" />R&B</label>
 
-
+<br>
+<br>
+<br>
 <button type="submit" value="Submit">Submit</button>
 
 </form>
@@ -108,16 +112,16 @@ button:hover {
 	   
 	   
 
-	   if(total < 4) {
-document.getElementById("answer2").innerHTML = "You got Quiet Company.";
+	   if(total < 5) {
+document.getElementById("answer2").innerHTML = "You got Hunter.";
 }
 
-   if(total >=4 && total < 7) {
-document.getElementById("answer2").innerHTML = "You got Spoon.";
+   if(total >=5 && total < 7) {
+document.getElementById("answer2").innerHTML = "You got Echo.";
 }
 	
 	if(total >=7) {
-document.getElementById("answer2").innerHTML = "You got Willie Nelson.";
+document.getElementById("answer2").innerHTML = "You got Mika.";
 }   
 
 
@@ -128,7 +132,7 @@ document.getElementById("answer2").innerHTML = "You got Willie Nelson.";
 
 </script>
 
-
-
+</center>
+</div>
 </body>
 </html>
